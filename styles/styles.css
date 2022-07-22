@@ -80,11 +80,11 @@ grid-template-columns: repeat(2, 1fr);
     text-align: center;
     position: sticky;
     color: #161616;
-    margin-left: 80px;
+    margin-left: 60px;
 
 }
 .m-info .m-style h4{
-    width: 60%;
+    width: 15vh;
     background-color: whitesmoke;
     padding-top: 5px;
     border-radius: 15px;
@@ -184,12 +184,8 @@ hr{
     .worldcup{
         width: 100%;
     }
-.worldcup, .player-image{
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.match-info{
-    grid-template-columns: repeat(2, 1fr);
-}
+    .container-main, .show-on-the-earth, .match-container, .match-info, .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
